@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Course • PrepOne</title><link rel="stylesheet" href="assets/styles.css?v=14.3.8"></head><body><div id="heroSlot"></div><main class="shell"><div id="studentCourseBar"></div><div class="layout courseLayout"><aside class="sidebar glass"><div class="sideTitle">Subjects</div><div id="sideLinks"></div></aside><section class="contentCard glass syllabusCard"><div class="sectionHead"><div><div class="eyebrow">Complete syllabus</div><h2 id="studyTitle">Loading…</h2></div></div><div id="contentStatus" class="contentStatus">Loading course content…</div>
+<div class="courseNavigator glass" id="courseNavigator">
+  <div class="navigatorTop">
+    <div><div class="eyebrow">Course navigator</div><h3>Find a topic fast</h3></div>
+    <button id="resetCourseFilters" class="btn navigatorReset" type="button">Reset</button>
+  </div>
+  <div class="navigatorControls">
+    <label class="searchControl"><span>Search</span><div class="searchBox"><span class="searchIcon">⌕</span><input id="courseSearch" type="search" placeholder="Search subject, chapter or topic…" autocomplete="off"><button id="clearCourseSearch" type="button" aria-label="Clear search">×</button></div></label>
+    <label class="selectControl"><span>Subject</span><select id="subjectFilter" class="filterSelect"><option value="">All Subjects</option></select></label>
+    <label class="selectControl"><span>Chapter</span><select id="chapterFilter" class="filterSelect"><option value="">All Chapters</option></select></label>
+  </div>
+  <div id="filterSummary" class="filterSummary">Showing all topics</div>
+</div>
+<div id="chapters"></div></section></div></main><script src="config.js?v=14.3.8"></script><script src="assets/app.js?v=14.3.8"></script><script>initStudy()</script></body></html>
